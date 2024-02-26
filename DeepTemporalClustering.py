@@ -14,7 +14,7 @@ from time import time
 # Keras
 from keras.models import Model
 from keras.layers import Dense, Reshape, UpSampling2D, Conv2DTranspose, GlobalAveragePooling1D, Softmax
-from keras.losses import kullback_leibler_divergence
+from keras.losses import KLDivergence as kullback_leibler_divergence
 import keras.backend as K
 
 # scikit-learn
